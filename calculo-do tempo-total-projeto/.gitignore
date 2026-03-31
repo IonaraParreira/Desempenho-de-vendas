@@ -1,0 +1,21 @@
+# --- AMBIENTE VIRTUAL ---
+# Nunca suba a pasta venv, ela é pesada e cada um cria a sua
+venv/
+.venv/
+env/
+
+# --- CACHE DO PYTHON ---
+# Arquivos que o Python cria sozinho para rodar mais rápido
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- CONFIGURAÇÕES DE EDITOR ---
+# Pastas que o VS Code cria para salvar suas preferências de tela
+.vscode/
+.idea/
+
+# --- ARQUIVOS DE SISTEMA ---
+# Arquivos inúteis que o Windows ou Mac criam nas pastas
+Thumbs.db
+.DS_Store
